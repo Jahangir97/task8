@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.container{
+   padding:0 2.5rem;
+}
+.first-menu{
+  display: flex;
+  padding: 15px 0 0;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 0px 25px;
+  
+}
+.first-menu a{
+ margin-right: 15px;
+ font-size: 15px;
+ color:#946F9E;
+}
+.first-left a:last-child {
+    border: 1.5px solid #0056c1;
+    border-radius: 40px;
+    color: #0056c1!important;
+    display: inline-block;
+    font-weight: 500;
+    padding: 6px 12px;}
+    .first-left a:last-child:hover {
+        background-color: #0056c1!important;
+        color: #fff!important;
+        text-decoration: none!important;}
+.first-menu .first-right i{
+    color:#CACBCB;
+}
+.first-menu .first-right select{
+    margin-right: 15px; 
+    
+}
+
+.second-menu{
+    margin: 25px 0px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ 
+}
+hr{
+    margin: 9px 0 0 ;
+   opacity: 0.2;
+}
+.second-menu .second-left a{
+ margin-left:18px ;
+}
+
+.third-menu {
+    display: flex;
+    padding: 25px 0px 0px;
+   
+}
+.third-menu a{
+    margin-right: 23px;
+}
+.third-menu{
+    margin: 0px 0px 16px;
+}
+
+.foot-all {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#000;
+   background-color: #D2DCF0;
+   font-size: 35px;
+}
+.foot-all a{
+    color:#000;
+    border:1px black solid;
+    border-radius:6px ;
+    background-color: #fff;
+    padding: 12px;
+    text-align: center;
+}
+.foor-left h5{
+    margin: 26px;
+} 
+.foot-left h3{
+    margin: 25px;
+}
+
+
+.header{
+    margin: 16px 0;
+    display:none;
+}
+.container-2{
+    padding: 0 1rem;
+}
+.phone-menu{
+    display: flex;
+    justify-content: space-between;   
+}
+.phone-menu .phone-menu-right a{
+ margin-left:10px ;
+}
+.phone-navbar{
+    margin: 20px 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.phone-navbar svg{
+    width: 80%;
+}
+
+.section {
+    background-color: #946F9E;
+    color:#fff;
+    text-align: center;
+    padding-top:25px ;
+    display: none;
+}
+
+.basliq a{
+    border: 1.5px solid #0056c1;
+    border-radius: 40px;
+    color: #0056c1!important;
+    display: inline-block;
+    font-weight: 500;
+    padding: 6px 12px;
+}
+.basliq h5{
+    padding-bottom:15px ;
+}
+.basliq h3{
+    padding-bottom:15px ;
+}
+
+
+
+@media(max-width:760px){
+    header{
+        display: none;
+    }
+    section{
+        display: none;
+    }
+.header{
+ display: block;
+}
+.section{
+    display: block;
+}
+}
